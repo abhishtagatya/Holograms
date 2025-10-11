@@ -64,15 +64,15 @@ Material:
     - _Distortion_Frequency: 5
     - _Distortion_Speed: 1
     - _DstBlend: 0
-    - _Emission_Scale: 2
-    - _Fresnel_Power: 1.5
-    - _Pattern_Boost: 0.24
-    - _Pattern_Density: 300
+    - _Emission_Scale: 1.25
+    - _Fresnel_Power: 1.25
+    - _Pattern_Boost: 0.5
+    - _Pattern_Density: 50
     - _Pattern_Edge: 0.1
     - _Pattern_Edge_A: 0.1
     - _Pattern_Edge_B: 0.5
     - _Pattern_Fade: 5
-    - _Pattern_Speed: 20
+    - _Pattern_Speed: 10
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SrcBlend: 1
@@ -81,10 +81,10 @@ Material:
     - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
-    - _Hologram_Color: {r: 0, g: 0.5471698, b: 0.0042915926, a: 0}
+    - _Hologram_Color: {r: 0.4823529, g: 0.13597667, b: 0, a: 0.03529412}
     - _Pattern_Direction: {r: 0, g: 0, b: 1, a: 0}
     - _Pattern_Direction_Horizontal: {r: 0, g: 1, b: 0, a: 0}
     - _Pattern_Direction_Vertical: {r: 1, g: 0, b: 0, a: 0}
-    - _Texture_Tint_Color: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+    - _Texture_Tint_Color: {r: 0, g: 1, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
