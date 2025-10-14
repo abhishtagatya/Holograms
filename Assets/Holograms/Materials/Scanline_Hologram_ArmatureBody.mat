@@ -60,12 +60,18 @@ Material:
     - _Blend: 2
     - _CastShadows: 1
     - _Cull: 2
+    - _Displacement_Density: 0.1
+    - _Displacement_Offset: 0.1
+    - _Displacement_Speed: 0.05
     - _Distortion_Amplitude: 0.1
     - _Distortion_Frequency: 5
     - _Distortion_Speed: 1
     - _DstBlend: 0
     - _Emission_Scale: 1
     - _Fresnel_Power: 2.5
+    - _Noise_Multiplier: 0.5
+    - _Noise_Scale: 500
+    - _Noise_Speed: 10
     - _Pattern_Boost: 1
     - _Pattern_Density: 10
     - _Pattern_Edge: 0.1
