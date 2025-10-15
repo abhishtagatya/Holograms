@@ -87,6 +87,7 @@ Material:
     - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
+    - _Direction: {r: 0, g: 0, b: 0, a: 0}
     - _Hologram_Color: {r: 0, g: 0.48235294, b: 0.030304842, a: 0.03529412}
     - _Pattern_Direction: {r: 0, g: 0, b: 1, a: 0}
     - _Pattern_Direction_Horizontal: {r: 0, g: 1, b: 0, a: 0}

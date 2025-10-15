@@ -60,8 +60,8 @@ Material:
     - _Blend: 2
     - _CastShadows: 1
     - _Cull: 2
-    - _Displacement_Density: 0.1
-    - _Displacement_Offset: 0.1
+    - _Displacement_Density: 0.2
+    - _Displacement_Offset: 0.02
     - _Displacement_Speed: 0.05
     - _Distortion_Amplitude: 0.1
     - _Distortion_Frequency: 5
@@ -87,6 +87,9 @@ Material:
     - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
+    - _Direction: {r: 0, g: -1, b: 0, a: 0}
+    - _Direction_1: {r: 1, g: 0, b: 0, a: 0}
+    - _Direction_B: {r: 0.1, g: 0, b: 0, a: 0}
     - _Hologram_Color: {r: 0, g: 0.59110916, b: 1, a: 0.2901961}
     - _Pattern_Direction: {r: 0, g: 1, b: 0, a: 0}
     - _Pattern_Direction_Horizontal: {r: 0, g: 1, b: 0, a: 0}

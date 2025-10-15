@@ -58,16 +58,18 @@ Material:
     - _Distortion_Amplitude: 1
     - _Distortion_Frequency: 5
     - _Distortion_Speed: 0
-    - _Emission_Scale: 2
+    - _Emission_Scale: 1.5
     - _Fresnel_Power: 1.5
     - _Noise_Multiplier: 0.025
     - _Noise_Scale: 500
     - _Noise_Speed: 10
     - _Pattern_Boost: 0.5
-    - _Pattern_Density: 200
+    - _Pattern_Density: 250
     - _Pattern_Edge_A: 0.1
     - _Pattern_Edge_B: 0.2
-    - _Pattern_Speed: 0.1
+    - _Pattern_Speed: 1
+    - _Pattern_Speed_A: 10
+    - _Pattern_Speed_B: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
