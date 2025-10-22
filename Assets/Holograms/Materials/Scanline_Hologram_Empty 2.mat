@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Scanline_Hologram_ArmatureBody
+  m_Name: Scanline_Hologram_Empty 2
   m_Shader: {fileID: -6465566751694194690, guid: eccfcaef82ebd42de87abcf38e3c9d5e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -38,7 +38,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Hologram_Texture:
-        m_Texture: {fileID: 2800000, guid: 28d78c5517421f047b88352f3b18e8e7, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -60,26 +60,26 @@ Material:
     - _Blend: 2
     - _CastShadows: 1
     - _Cull: 2
-    - _Displacement_Density: 0.3
+    - _Displacement_Density: 0.2
     - _Displacement_Noise_Scale: 1
     - _Displacement_Offset: 0.1
-    - _Displacement_Speed: 1
+    - _Displacement_Speed: 0.5
     - _Distortion_Amplitude: 0.1
     - _Distortion_Frequency: 5
     - _Distortion_Speed: 1
     - _DstBlend: 0
-    - _Emission_Scale: 5
-    - _Fresnel_Power: 0.5
-    - _Noise_Multiplier: 0.5
+    - _Emission_Scale: 25
+    - _Fresnel_Power: 1.5
+    - _Noise_Multiplier: 0.25
     - _Noise_Scale: 500
     - _Noise_Speed: 10
-    - _Pattern_Boost: 1
-    - _Pattern_Density: 500
+    - _Pattern_Boost: 0.5
+    - _Pattern_Density: 10
     - _Pattern_Edge: 0.1
     - _Pattern_Edge_A: 0.1
     - _Pattern_Edge_B: 0.5
     - _Pattern_Fade: 5
-    - _Pattern_Noise_Scale: 50
+    - _Pattern_Noise_Scale: 100
     - _Pattern_Speed: 10
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -89,15 +89,14 @@ Material:
     - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
-    - _Direction: {r: 1, g: 0, b: 0, a: 0}
-    - _Direction_1: {r: 1, g: 0, b: 0, a: 0}
+    - _Direction: {r: 0, g: 1, b: 0, a: 0}
     - _Direction_B: {r: 1, g: 0, b: 0, a: 0}
-    - _Displacement_Direction: {r: 1, g: 0, b: 0, a: 0}
+    - _Displacement_Direction: {r: 0, g: 1, b: 0, a: 0}
     - _Displacement_Noise_Direction: {r: 0, g: 1, b: 0, a: 0}
-    - _Hologram_Color: {r: 0, g: 0.59110916, b: 1, a: 0.2901961}
+    - _Hologram_Color: {r: 0, g: 0.43137264, b: 1, a: 0.3137255}
     - _Pattern_Direction: {r: 0, g: -1, b: 0, a: 0}
     - _Pattern_Direction_Horizontal: {r: 0, g: 1, b: 0, a: 0}
     - _Pattern_Direction_Vertical: {r: 1, g: 0, b: 0, a: 0}
-    - _Texture_Tint_Color: {r: 0.09803913, g: 0.2246997, b: 0.8392157, a: 0}
+    - _Texture_Tint_Color: {r: 0, g: 0.37397557, b: 0.4433962, a: 0.29803923}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
