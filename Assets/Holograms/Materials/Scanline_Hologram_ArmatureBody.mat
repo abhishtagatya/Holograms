@@ -62,7 +62,7 @@ Material:
     - _Cull: 2
     - _Displacement_Density: 0.3
     - _Displacement_Noise_Scale: 1
-    - _Displacement_Offset: 0.1
+    - _Displacement_Offset: 0.3
     - _Displacement_Speed: 1
     - _Distortion_Amplitude: 0.1
     - _Distortion_Frequency: 5

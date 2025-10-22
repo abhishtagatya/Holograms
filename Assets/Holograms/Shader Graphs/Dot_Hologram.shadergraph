@@ -474,6 +474,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "492792d3db9f4abdab7dc9aa1266ed49"
+                },
+                "m_SlotId": 1
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "ecd13405771f43e7bdad8d92283e422b"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "4ed62b27edad4e52a83a672b2d3f46b9"
                 },
                 "m_SlotId": 0
@@ -483,20 +497,6 @@
                     "m_Id": "ec4637af092248cc8de745139a57f55f"
                 },
                 "m_SlotId": -1626586672
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "4fd08bb25ba240e6bfd466511d8b7d31"
-                },
-                "m_SlotId": 1
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "492792d3db9f4abdab7dc9aa1266ed49"
-                },
-                "m_SlotId": 2069471467
             }
         },
         {
@@ -572,6 +572,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "5b9eb47829e74b158ffde25299ffa329"
+                },
+                "m_SlotId": 2
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "492792d3db9f4abdab7dc9aa1266ed49"
+                },
+                "m_SlotId": 2069471467
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "5bbfb849c18048abb6ab137bc54095dd"
                 },
                 "m_SlotId": 0
@@ -609,20 +623,6 @@
                     "m_Id": "ec4637af092248cc8de745139a57f55f"
                 },
                 "m_SlotId": -785430850
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "5f2d2cc930dd42bcb5d58d0b97676a9a"
-                },
-                "m_SlotId": 1
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "ecd13405771f43e7bdad8d92283e422b"
-                },
-                "m_SlotId": 0
             }
         },
         {
@@ -2643,7 +2643,7 @@
     "m_ObjectId": "34adafe914e94001b94f52ce64fe854f",
     "m_Title": "Basic Fresnel Glow",
     "m_Position": {
-        "x": -465.5,
+        "x": -465.5000305175781,
         "y": 708.0
     }
 }
