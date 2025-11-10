@@ -1,18 +1,21 @@
 using UnityEngine;
 
-public class OrbitCamera : MonoBehaviour
+namespace HologramVFXDemo
 {
-    public Transform target;   // The object or point to orbit around
-    public float speed = 20f;    // Rotation speed (degrees per second)
-
-    void Update()
+    public class OrbitCamera : MonoBehaviour
     {
-        if (!target) return;
+        public Transform target;   // The object or point to orbit around
+        public float speed = 20f;    // Rotation speed (degrees per second)
 
-        // Rotate around the target’s Y axis
-        transform.RotateAround(target.position, Vector3.up, speed * Time.deltaTime);
+        void Update()
+        {
+            if (!target) return;
 
-        // Always look at the target
-        transform.LookAt(target);
+            // Rotate around the target’s Y axis
+            transform.RotateAround(target.position, Vector3.up, speed * Time.deltaTime);
+
+            // Always look at the target
+            transform.LookAt(target);
+        }
     }
 }

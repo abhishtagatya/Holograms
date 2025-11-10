@@ -1,43 +1,46 @@
 using UnityEngine;
 
-public class ObjectSelectEnable : MonoBehaviour
+namespace HologramVFXDemo
 {
-    [Tooltip("List of GameObjects to cycle through.")]
-    public GameObject[] objects;
-
-    private int currentIndex = 0;
-
-    void Start()
+    public class ObjectSelectEnable : MonoBehaviour
     {
-        // Disable all at the start except the first one
-        UpdateSelection();
-    }
+        [Tooltip("List of GameObjects to cycle through.")]
+        public GameObject[] objects;
 
-    void Update()
-    {
-        if (objects.Length == 0) return;
+        private int currentIndex = 0;
 
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        void Start()
         {
-            currentIndex = (currentIndex + 1) % objects.Length;
+            // Disable all at the start except the first one
             UpdateSelection();
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        void Update()
         {
-            currentIndex = (currentIndex - 1 + objects.Length) % objects.Length;
-            UpdateSelection();
-        }
-    }
+            if (objects.Length == 0) return;
 
-    void UpdateSelection()
-    {
-        for (int i = 0; i < objects.Length; i++)
+            if (Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                currentIndex = (currentIndex + 1) % objects.Length;
+                UpdateSelection();
+            }
+
+            if (Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                currentIndex = (currentIndex - 1 + objects.Length) % objects.Length;
+                UpdateSelection();
+            }
+        }
+
+        void UpdateSelection()
         {
-            if (objects[i] != null)
-                objects[i].SetActive(i == currentIndex);
-        }
+            for (int i = 0; i < objects.Length; i++)
+            {
+                if (objects[i] != null)
+                    objects[i].SetActive(i == currentIndex);
+            }
 
-        Debug.Log($"Selected: {objects[currentIndex].name}");
+            Debug.Log($"Selected: {objects[currentIndex].name}");
+        }
     }
 }

@@ -56,8 +56,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _Displacement_Density: 0.2
-    - _Displacement_Noise_Scale: 1000
-    - _Displacement_Offset: 0.001
+    - _Displacement_Noise_Scale: 100
+    - _Displacement_Offset: 0.01
     - _Displacement_Speed: 1
     - _Emission_Scale: 10
     - _Fresnel_Power: 2.5
