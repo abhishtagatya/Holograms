@@ -3148,8 +3148,8 @@
     "m_ObjectId": "34adafe914e94001b94f52ce64fe854f",
     "m_Title": "Fresnel Effect",
     "m_Position": {
-        "x": -526.9999389648438,
-        "y": 708.0001220703125
+        "x": -527.0,
+        "y": 708.0
     }
 }
 
@@ -4164,8 +4164,8 @@
     "m_ObjectId": "544d885282ba4e64981c9262c9c55281",
     "m_Title": "Grid (Max) & Squared-Dot Matrix (Min)",
     "m_Position": {
-        "x": -2549.235107421875,
-        "y": 1726.346923828125
+        "x": -2549.0,
+        "y": 1726.5
     }
 }
 
@@ -6295,7 +6295,7 @@
     "m_ObjectId": "93f569d60843444f96f3ab30d25d08c4",
     "m_Title": "Displacement",
     "m_Position": {
-        "x": -2547.999755859375,
+        "x": -2548.0,
         "y": -1394.0
     }
 }
@@ -7242,8 +7242,8 @@
     "m_ObjectId": "ad0c20f3b3a845faa40e5c7225697eb0",
     "m_Title": "Scanline Pattern Calculation",
     "m_Position": {
-        "x": -2299.999755859375,
-        "y": 683.4999389648438
+        "x": -2300.0,
+        "y": 683.5
     }
 }
 
