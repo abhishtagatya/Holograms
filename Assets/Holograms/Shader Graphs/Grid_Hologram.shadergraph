@@ -323,6 +323,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "0b3ccd3c49d948bf966178f8e9b40936"
+                },
+                "m_SlotId": 2
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "3cef2d6ce6e74293a733214fb3a589aa"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "122cc19d288341cfad1aa4fb9225b856"
                 },
                 "m_SlotId": 1
@@ -470,20 +484,6 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "0b3ccd3c49d948bf966178f8e9b40936"
-                },
-                "m_SlotId": 0
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "2ecee134eb4a499c97958159f1f95cdb"
-                },
-                "m_SlotId": 1
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "3cef2d6ce6e74293a733214fb3a589aa"
                 },
                 "m_SlotId": 0
             }
@@ -3100,7 +3100,7 @@
     "m_ObjectId": "34adafe914e94001b94f52ce64fe854f",
     "m_Title": "Basic Fresnel Glow",
     "m_Position": {
-        "x": -556.5,
+        "x": -556.4998779296875,
         "y": 708.0
     }
 }
@@ -6297,8 +6297,8 @@
     "m_ObjectId": "95a7d377095b435fb84c95bea0a41ca1",
     "m_Title": "Displacement",
     "m_Position": {
-        "x": -2615.0,
-        "y": -1286.5
+        "x": -2614.999755859375,
+        "y": -1286.4998779296875
     }
 }
 

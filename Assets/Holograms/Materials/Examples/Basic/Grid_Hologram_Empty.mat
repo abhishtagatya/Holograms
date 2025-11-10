@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3626530510382181390
+--- !u!114 &-2653749958101470290
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,13 +20,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Scanline_Jet_Healthy
-  m_Shader: {fileID: -6465566751694194690, guid: eccfcaef82ebd42de87abcf38e3c9d5e, type: 3}
+  m_Name: Grid_Hologram_Empty
+  m_Shader: {fileID: -6465566751694194690, guid: de487131c0a5e473194161dfed747057, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -38,7 +38,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Hologram_Texture:
-        m_Texture: {fileID: 2800000, guid: 2b06942b2027f4fa8b4679e894979549, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -55,48 +55,34 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 2
-    - _CastShadows: 1
-    - _Cull: 2
-    - _Displacement_Density: 0.5
-    - _Displacement_Noise_Scale: 0.5
-    - _Displacement_Offset: 0.1
+    - _Displacement_Density: 0.2
+    - _Displacement_Noise_Scale: 1
+    - _Displacement_Offset: 0.25
     - _Displacement_Speed: 1
-    - _Distortion_Amplitude: 0.1
+    - _Distortion_Amplitude: 1
     - _Distortion_Frequency: 5
-    - _Distortion_Speed: 1
-    - _DstBlend: 0
-    - _Emission_Scale: 10
-    - _Fresnel_Power: 1.25
-    - _Noise_Multiplier: 1
-    - _Noise_Scale: 50
-    - _Noise_Speed: -0.1
-    - _Pattern_Boost: 0.2
-    - _Pattern_Density: 500
-    - _Pattern_Edge: 0.1
-    - _Pattern_Edge_A: 0.1
-    - _Pattern_Edge_B: 0.5
-    - _Pattern_Fade: 5
+    - _Distortion_Speed: 0
+    - _Emission_Scale: 20
+    - _Fresnel_Power: 1.5
+    - _Noise_Multiplier: 0
+    - _Noise_Scale: 500
+    - _Noise_Speed: 10
+    - _Pattern_Boost: 0.5
+    - _Pattern_Density: 250
+    - _Pattern_Edge_A: 0
+    - _Pattern_Edge_B: 2
     - _Pattern_Noise_Scale: 250
-    - _Pattern_Speed: 10
+    - _Pattern_Speed: 0
+    - _Pattern_Speed_A: 10
+    - _Pattern_Speed_B: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SrcBlend: 1
-    - _Surface: 0
-    - _ZTest: 4
-    - _ZWrite: 1
-    - _ZWriteControl: 0
     m_Colors:
-    - _Direction: {r: 1, g: 0, b: 0, a: 0}
-    - _Direction_B: {r: 0, g: 1, b: 0, a: 0}
     - _Displacement_Direction: {r: 1, g: 0, b: 0, a: 0}
-    - _Displacement_Noise_Direction: {r: 0, g: 1, b: 0, a: 0}
-    - _Hologram_Color: {r: 0, g: 0.48235294, b: 0.030304842, a: 0.03529412}
-    - _Pattern_Direction: {r: 0, g: 0, b: 1, a: 0}
-    - _Pattern_Direction_Horizontal: {r: 0, g: 1, b: 0, a: 0}
-    - _Pattern_Direction_Vertical: {r: 1, g: 0, b: 0, a: 0}
-    - _Texture_Tint_Color: {r: 0.5471698, g: 0.45857793, b: 0, a: 0.38431373}
+    - _Displacement_Noise_Direction: {r: 0, g: -1, b: 0, a: 0}
+    - _Hologram_Color: {r: 1, g: 0.18758507, b: 0, a: 0.2}
+    - _Pattern_Direction_Horizontal: {r: 1, g: 0, b: 0, a: 0}
+    - _Pattern_Direction_Vertical: {r: 0, g: 1, b: 0, a: 0}
+    - _Texture_Tint_Color: {r: 0, g: 0, b: 0, a: 0.16862746}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
